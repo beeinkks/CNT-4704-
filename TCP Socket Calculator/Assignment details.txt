@@ -1,0 +1,13 @@
+Simple math calculator!
+
+The client program repeatedly requires the user to input a basic math computing question, 
+which will be sent to server program where it will be computed. The result is sent back by
+the server program and the client program displays it out.
+
+Math computing question has this format: “x op y =”, where x and y are positive real numbers, 
+“op” represents basic math operator of “+”, “-“, “*”, “/” . The user ends the repeated input 
+procedure by typing “0/0=”. If the user types in an invalid math question, the client should 
+show an error message “Input error. Re-type the math question again.”
+
+The server should output the math questions sent by the client, and show the end of client 
+input when receiving “0/0=”, and then shut down. 
